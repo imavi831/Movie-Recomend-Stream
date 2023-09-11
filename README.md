@@ -1,64 +1,102 @@
 # Movie Recommendation Model
+<p align="center">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlhbm5-jNGTy-WdvLk2Jk6qFkhqn__ERYOaEJdq3WzkxQgZBFgtojzp2eASe6lOdo-iVyWkhutwwwKTXh1o084rcZshjnDcN8xqNWiTW9jONpY5wTjxch75vLsOF5WHnziG-42wShyvt375fXGOGauYHhoxlpoChUK-3OuKiM9sRTJ-nHoFXFLjLIZ/w400-h229/H95B.gif" width="600" height="449">
+</p>
 
+
+# Tools & Technologies Used
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisMIVHbKjYAF3lQvTF9suc_QjNLS-SoQuykTbyjoZmyfoM2C9V5vsW12Dvt-hOsUT8GrfJ1aWuGPdbf9pOeZD204T_VUT3G1ckiy5OzxOaAVJngclB_H8IY6vzLiRti4qoFjIsZ8CImcLKrs4sM9BLY-t6ynUsyZ0Ly7ZXpT3j26hgWYocU0ioFbEY/s16000/Untitled%20design%20(6).png)
+
+# Objective
 The Movie Recommendation Model is a machine learning-based system that takes a movie title as input and provides 5 movie recommendations based on it. Additionally, the model also offers direct streaming links for these recommended movies, leveraging publicly available sources. The model utilizes a dataset from Kaggle, which is limited to movies released up until the year 2015.
 
-## Features
 
-- Recommends 5 movies similar to the input movie.
-- Provides streaming links for the recommended movies (where publicly available).
-- Utilizes a machine learning algorithm to make recommendations.
-- Trained on a Kaggle dataset up to the year 2015.
+# OUR APPROACH FOR THE PROJECT
+![image](https://github.com/Sudhansu352010/Doctor-Fee-Prediction/assets/131376814/3ea4bb7a-6da9-4698-bdbd-3dc60e0cc4a2)
 
-  <p align="center">
-  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtswTl-SCfRRY0ScWc-rrparm4wsDEm5wykCMBMebu1vvRvQZtNcDb7R3FXPGg2_7ZwRqqfAyvWQlxAfjctrayYfmFhoiORmOvYXJG1obqKZBGVo6OnZWZ5N4RZkgusNs2K7-I18t44LwOTycdTLLz_3538dHJRX9bX3ZBbBjJUpr96fKt9_TtmgTc/s16000/movie%20main.png" alt="Dashboard Demo">
-</p>
-
-## How It Works
-
-The Movie Recommendation Model employs a machine learning algorithm to analyze the characteristics of movies and their relationships. Here's a high-level overview of how it works:
-
-1. **Input Movie**: Provide the title of a movie you're interested in.
-
-2. **Processing**: The model processes the input movie title and extracts relevant features or attributes from the dataset.
-
-3. **Similarity Analysis**: The model calculates the similarity between the input movie and all other movies in the dataset. This similarity score is based on various features like genre, actors, directors, etc.
-
-4. **Recommendations**: The model selects the top 5 movies with the highest similarity scores as recommendations.
-
-5. **Streaming Links**: For each recommended movie, if there are publicly available streaming links, the model provides those links for easy access.
-
-<p align="center">
-  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4vCEtjm0ki54ZsFXME6x4XJ5KgRjouazXy7w4TbDJVVQx9gZyAAps_GiugSm2OJleyQaUCkKRJb8JYCXT3619CijOTWb_mPm-JJqgB232Moy7hAuwumqURKTuWPwAiDxsslkkyhtyMhbbSKpQSHyUrPOsvhZEc4-wtp7fAINCQWj9CHh2Slx5R2WC/s16000/Untitled%20design%20(4).png" alt="Dashboard Demo">
-</p>
-
-## Dataset
-
-The Movie Recommendation Model was trained on a dataset sourced from Kaggle, containing information about movies up to the year 2015. The dataset includes details such as movie titles, genres, actors, directors, release years, and more. Please note that the recommendations provided by the model are influenced by the data available in this dataset.
-
-
-<p align="center">
-  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfJZk-e0qUM5dAIiqOH1oCd_Bxrb9llBpXddXmb237_QBV0aTG5bKRxvZB5dFw3ObhB7AHzDMsifJIK03TLJfOPMYgdynRhHXaG5URs8p_Ddyzoq_AUBAHKJDM57eq1nBnVIN_sREorsaOOxwS1WsPan-WlMslOBD_GuF-KwExdVkXtmIoK27uTRZu/s16000/Untitled%20design%20(5).png" alt="Dashboard Demo">
-</p>
-
-## Limitations
-
-- The recommendations are based on data available only up to the year 2015.
-- The model's accuracy and relevance depend on the quality and completeness of the training dataset.
-- Streaming link availability is subject to change and might not always be accurate or up-to-date.
-
-## Future Scope
-
-The Movie Recommendation Model lays the foundation for an exciting array of future possibilities:
-
-1. **Real-Time Streaming**: Enhance the model to provide real-time streaming links to recommended movies, allowing users to watch movies instantly.
-
-2. **Up-to-Date Data**: Extend the dataset to include movies released after 2015, ensuring that the model recommends the latest films.
-
-3. **TV Series Recommendations**: Create a dedicated section within the model to recommend TV series based on user preferences, providing a comprehensive entertainment solution.
-
-4. **Integration with Streaming Platforms**: Collaborate with streaming platforms to seamlessly integrate the model's recommendations within their interfaces.
-
-5. **International Films**: Expand the dataset to include a diverse range of international films, catering to a broader audience.
+# User's Manual
+![image](https://github.com/Sudhansu352010/Doctor-Fee-Prediction/assets/131376814/fc9f0b0b-ce13-4f24-946b-629e803315dd)
 
 
 
+# Data Preparation
+# Data Scarpping (Snapshots)
+![image](https://github.com/Sudhansu352010/Doctor-Fee-Prediction/assets/131376814/1e286d03-131f-4665-88b0-c5cf6a801b36)
+
+----------------------------------------------------------------------------------------------------------------------
+![image](https://github.com/Sudhansu352010/Doctor-Fee-Prediction/assets/131376814/063e6947-46c3-4e1d-a306-8f4168a3e9a0)
+
+
+# Data Cleaning (few code snippets)
+1. Null Handling & Remove Noise Values
+![image](https://github.com/Sudhansu352010/Doctor-Fee-Prediction/assets/131376814/df0a8a1f-c73b-478b-b7a8-1523afb43c1e)
+
+
+3. Change Data type of Consultation Column
+   ![image](https://github.com/Sudhansu352010/Doctor-Fee-Prediction/assets/131376814/b0833efa-fb9d-4b76-80b1-f64ab82fb2fb)
+   
+   
+5. In the data sets Location column and city column both have city name which is not generally required. so here we will split the column using ',' delimeter and then remove the column contain city name.
+   ![image](https://github.com/Sudhansu352010/Doctor-Fee-Prediction/assets/131376814/dc2f6215-8f87-4e6e-89bb-9a958b9b3476)
+   
+
+# Exploratory Data Analysis(EDA)
+
+# Number of Doctors by each City
+![image](https://github.com/Sudhansu352010/Doctor-Fee-Prediction/assets/131376814/a59d9f4e-ffdb-4082-be88-8a6dff9da469)
+
+------------------------------------------------------------------------------------------------------------------------
+
+# Count  of Doctors in each Speciality
+![image](https://github.com/Sudhansu352010/Doctor-Fee-Prediction/assets/131376814/11079f23-5985-46d7-a25c-7913f54395fb)
+
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+# Speciality wise Fees Analysis
+![image](https://github.com/Sudhansu352010/Doctor-Fee-Prediction/assets/131376814/3120eb36-d8f8-4fe7-9113-ee97cb757565)
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+# Percentage of  Doctors avilable in each of the city
+![image](https://github.com/Sudhansu352010/Doctor-Fee-Prediction/assets/131376814/c29cc699-51b6-47e8-9b0c-30814cb4e045)
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+# Correlation between the Variables By using Heatmap
+![image](https://github.com/Sudhansu352010/Doctor-Fee-Prediction/assets/131376814/b25da979-d418-46a0-8614-50963db2ba7a)
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+# Doctors Having Maximum number of Specialization
+![image](https://github.com/Sudhansu352010/Doctor-Fee-Prediction/assets/131376814/43d79d51-d358-444d-918e-258b987c37ba)
+
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+# Distribution of  year of experience
+![image](https://github.com/Sudhansu352010/Doctor-Fee-Prediction/assets/131376814/e7aaa642-9722-4285-8638-63fa1bc0421b)
+
+
+
+# Key Insights
+1. Most of the doctors have 13 to 15 years of experience.
+
+2. Cities like Bangalore have a higher percentage of doctors, accounting for approximately 40.23%.
+
+3. The majority of doctors specialize in Dentistry (1460), while the fewest doctors specialize in Chiropractic (7).
+
+4. Bangalore has the highest number of doctors compared to Delhi and Mumbai.
+
+5. In each city, the number of dentists is higher than other specialties because their consultation fees are completely free.
+
+6. Neurosurgeons and Ophthalmologists charge high consultation fees, while specialties like Dentistry, Dermatology, Gynecology/Obstetrics, Infertility Specialists, Physiotherapy, and Dietetics/Nutritionists offer almost free consultations.
+
+7. Locations like Saket in Delhi have the highest concentration of doctors.
+
+8. The most common degree among doctors is BDS.
