@@ -12,7 +12,7 @@ The Movie Recommendation Model is a machine learning-based system that takes a m
 
 
 # OUR APPROACH FOR THE PROJECT
-![image](https://github.com/Sudhansu352010/Doctor-Fee-Prediction/assets/131376814/3ea4bb7a-6da9-4698-bdbd-3dc60e0cc4a2)
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJyS7DvGnjb42Oaeys03VdGnRG5lKlzGtjA3VkkYLHDiByno0dkOmIeba1Qhx_FuR9vG3TkU3v2iAFnNEzGdTEUB-fEP3mDK63ZuyiZDSV2R3bA6loiqJsBbRxIaA8q7cXBXiIcrwvAAW59i7mBYRQLTSLlMQ21MydHgACdP75zlu4nN1DQqzEgS4s/s16000/cht.png)
 
 # User's Manual
 ![image](https://github.com/Sudhansu352010/Doctor-Fee-Prediction/assets/131376814/fc9f0b0b-ce13-4f24-946b-629e803315dd)
