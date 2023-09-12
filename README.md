@@ -3,12 +3,12 @@
   <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlhbm5-jNGTy-WdvLk2Jk6qFkhqn__ERYOaEJdq3WzkxQgZBFgtojzp2eASe6lOdo-iVyWkhutwwwKTXh1o084rcZshjnDcN8xqNWiTW9jONpY5wTjxch75vLsOF5WHnziG-42wShyvt375fXGOGauYHhoxlpoChUK-3OuKiM9sRTJ-nHoFXFLjLIZ/w400-h229/H95B.gif" width="600" height="449">
 </p>
 
+# Objective
+The Movie Recommendation Model is a machine learning-based system that takes a movie title as input and provides 5 movie recommendations based on it. Additionally, the model also offers direct streaming links for these recommended movies, leveraging publicly available sources. The model utilizes a dataset from Kaggle, which is limited to movies released up until the year 2015.
+
 
 # Tools & Technologies Used
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisMIVHbKjYAF3lQvTF9suc_QjNLS-SoQuykTbyjoZmyfoM2C9V5vsW12Dvt-hOsUT8GrfJ1aWuGPdbf9pOeZD204T_VUT3G1ckiy5OzxOaAVJngclB_H8IY6vzLiRti4qoFjIsZ8CImcLKrs4sM9BLY-t6ynUsyZ0Ly7ZXpT3j26hgWYocU0ioFbEY/s16000/Untitled%20design%20(6).png)
-
-# Objective
-The Movie Recommendation Model is a machine learning-based system that takes a movie title as input and provides 5 movie recommendations based on it. Additionally, the model also offers direct streaming links for these recommended movies, leveraging publicly available sources. The model utilizes a dataset from Kaggle, which is limited to movies released up until the year 2015.
 
 
 # OUR APPROACH FOR THE PROJECT
@@ -115,14 +115,19 @@ The Movie Recommendation Model is a machine learning-based system that takes a m
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfJZk-e0qUM5dAIiqOH1oCd_Bxrb9llBpXddXmb237_QBV0aTG5bKRxvZB5dFw3ObhB7AHzDMsifJIK03TLJfOPMYgdynRhHXaG5URs8p_Ddyzoq_AUBAHKJDM57eq1nBnVIN_sREorsaOOxwS1WsPan-WlMslOBD_GuF-KwExdVkXtmIoK27uTRZu/s16000/Untitled%20design%20(5).png)
 
-# Problems Faced
-1. Finding a movie streaming api which has no geo blocks in it.
-2. Using streamlit as it has been updated the syntax has changed and old tutorials are not relevant anymore.
-3. integration of model with streamlit application
+# ***Problems Faced***
+
+1. Finding a movie streaming API that has no geo blocks.
+2. Using Streamlit; as it has been updated, the syntax has changed, and old tutorials are no longer relevant.
+3. Integration of the model with the Streamlit application.
+4. TMDB has limited the API usage to 10,000 requests per month, so if usage exceeds that, you will need to purchase credits.
+5. The model is quite large in size; as you add more movies to it, the data will grow exponentially, and the program will slow down.
 
 
-# Future Scope
-1. Dataset used is limited to year 2016 data could be updated to get new movie recommendation as astreaming api is being regularly being
-   Updated by the devlopers.
-2. A separate section for tv shows could also be added in order for tv show recomendation.
-3. More region movies can be added and combination of multiple api's can be used to get streaming links.
+# ***Future Scope***
+
+1. The dataset used is limited to 2016 data; it could be updated to provide new movie recommendations, as the streaming API is regularly updated by the developers.
+2. A separate section for TV shows could also be added for TV show recommendations.
+3. More regional movies can be included, and a combination of multiple APIs can be used to obtain streaming links.
+4. You can even create your own streaming API and monetize it with ads on the video; this model will automatically fetch all the streaming links.
+
