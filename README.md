@@ -59,42 +59,45 @@ The Movie Recommendation Model is a machine learning-based system that takes a m
 # Data Cleaning and Feature selection (few code snippets)
 1. Null Handling & Remove Noise Values
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixT6rNJYG6Hp0UDCN5Uh5ai3h7GTxEm1TBqEPK0AkJwwPOUjwTA3GA8VE65mjSknVCkk1nthaQTE7jESxo1_cw7Zfdl99EflH3rwszB8_2ULNUkSaxC8OTOOxpMzAbz4TBc8RigvxyOvNEybb5PUx-jCNlZdrPXDTTv-Vd3bLZIJb_ix9oVVNn347V/s16000/11zon_cropped.png)
+In this step, we address missing values and eliminate noisy data points from our dataset. Proper data cleaning is essential to ensure the accuracy of our analysis.
 
 
-2. Create Function to Extract genres from Table
+3. Create Function to Extract genres from Table
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUQXMtit-FTp5vVa7otvLCHjfW-WG2PiI0ZTq_i780zViQpvwt-U1uvO0SMemDG1HD_cJn0M8ZkejlecsndZEbqvMqCQ7XmKJbrTmouLtDV6vA6C3UG-YMRlWDveb2Ie6CZ0NtgUZ48EduMoC73-dCPD605ygljy-LvttkkyN6Lj7XhGAst9VXXUfN/s16000/11zon_cropped%20(1).png)
 The data is in Disctionary format we only need text we will uses this simple function to extract genre as text from the column
    
-3. The crew column has name of all the crew who worked on the movie, but only directors play bigger role in movie selection so extracting Directors name from
+4. The crew column has name of all the crew who worked on the movie, but only directors play bigger role in movie selection so extracting Directors name from
    crew column
    ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLThdR8TEyx65KW1Gjk_2UmxhrvmN0AFrcUrWBwDm9r_1arSroyqYP10pVhfZjbW8cUc9toEpd7gtvxGhgI9mTwxflmmEtdD0WfxqgDUcSHCVvOGHtpuFB2t4I4-k6cNOVIx2WwIHNOXrfqhEvwmMfxX-Y5Lss49BTYdiB9PBXZRHBku5vdPxF1TnK/s16000/11zon_cropped%20(2).png)
+   While the crew column contains information about everyone involved in the movie, we're primarily interested in directors as they play a significant role in movie selection. We've developed a process to extract director names from the crew column.
 
-4. Cast column has name of all the actors who worked on the movie but we will only use top 3 actors since they are primary character that influence people choice
+6. Cast column has name of all the actors who worked on the movie but we will only use top 3 actors since they are primary character that influence people choice
    ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiF4QWuo6OKGKCNim5qqogT1tEXJydzsAMNbXmMCRJH9eGelEDw4s_LQYVq6ZsNb8DRxG-oFNGK3U-hS0V8BaqqP5dqczO__aSRNVl2Hs2efpE2NQRnsgUb6N-fOvEcKwbgWSEAa3c8OPlu24hdks6gW5766jbEDEN8WHfXRETAvhNHVzCE1cT6KqGJ/s16000/11zon_cropped%20(3).png)
+   For our analysis, we focus on the top 3 actors in each movie. These actors are often the primary influencers of people's movie choices.
 
 # Model Creation
 
 # Using Cosine vectors to create vectors for all the movies available in dataset
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8sHX9b4g0xKIbxuN4bM-3Om8lFlvOyxJL91uP7j8Qtw84N8EyerlnODqoWmXbP8Vmvg0TBZyacFPA1g0Si9LmW5BRRzB160DIaXz66NWqfuweXEU5NWPZIVthaMX_4Pt83T4kjoJDCRNJVxBI3kgKr1HS5q7OY1CmcOh_Vk-LaBjNGeGyA2yOwZZe/s16000/11zon_cropped%20(4).png)
+We use cosine vectors to represent all the movies in our dataset. This vectorization method helps us compare and analyze movies efficiently.
 
 ------------------------------------------------------------------------------------------------------------------------
 
 # Used Nltk Library to normalize similar words for better model accuracy 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5Pf7j4kDF-DSKZ86Q-zNIz7ykdT1VQOddTZfsZ_kFuOOWA1XqNISiDeDb3en1k99IWoEwh1ehO6lAMPLIs6XnKxO-C-Jl079tzPC1BKPplpHpA0LdUJ31NwRKKDlrD_d5Pr4jDzgYWy805PimvxftrjaHvZQR5GtlugMNYz12Wde8qMgxL15aSyzb/s16000/11zon_cropped%20(5).png)
-
-
+To improve the accuracy of our model, we employ the NLTK library for text normalization. This process normalizes similar words, reducing noise in our data and enhancing model performance.
 
 -------------------------------------------------------------------------------------------------------------------------
 
 # Pickle library to store Model 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgG90vR7M-LM7r35_xfjRcn9bFSX9VC0Tp3W6rHpWOg0qW3-Oklx32kkUhUeMksWUhWvbM7g-kcfko0JyiytQOAZ4-8aFG9GCHL11G3uhpuKlSBhE6FSSivSe3j7e-QL7q8Ntlo_AUWkrNc0qSi5C74xtMa_LdNCGT6FdP2BsmiY2fKJAAz4JYOw_4A/s16000/11zon_cropped%20(6).png)
-
-
+We use the Pickle library to store our model. This allows us to save the trained model and load it for future use without the need to retrain it every time.
  
 
 # Streamlit Application
 # Code[snapshot]
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMEfB2sFlTxZnZNUrx0g3qOGfz5lYLn1h25M47w_kYk6nASlOdtDE6Hfj-s_qPlfbDhadtWDg_lRz0KP9lCQk9_gJPUX8FA1c8VerMW7VspImRGBJ5fSkcZqSVOb5DjuqHI9Pz5s27hj_f6bbomp7De6lZQ7nHnKNkWQRmEfjsSO156jr_a5u4gCXn/s16000/11zon_cropped%20(7).png)
+Our Streamlit application is the user interface for interacting with our movie recommendation system. It provides a user-friendly experience for users to discover movies.
 
 
 # Webpage
