@@ -63,7 +63,7 @@ The Movie Recommendation Model is a machine learning-based system that takes a m
 
 2. Create Function to Extract genres from Table
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUQXMtit-FTp5vVa7otvLCHjfW-WG2PiI0ZTq_i780zViQpvwt-U1uvO0SMemDG1HD_cJn0M8ZkejlecsndZEbqvMqCQ7XmKJbrTmouLtDV6vA6C3UG-YMRlWDveb2Ie6CZ0NtgUZ48EduMoC73-dCPD605ygljy-LvttkkyN6Lj7XhGAst9VXXUfN/s16000/11zon_cropped%20(1).png)
-   
+The data is in Disctionary format we only need text we will uses this simple function to extract genre as text from the column
    
 3. The crew column has name of all the crew who worked on the movie, but only directors play bigger role in movie selection so extracting Directors name from
    crew column
