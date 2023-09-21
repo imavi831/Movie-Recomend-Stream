@@ -6,6 +6,15 @@
 # Objective
 The Movie Recommendation Model is a machine learning-based system that takes a movie title as input and provides 5 movie recommendations based on it. Additionally, the model also offers direct streaming links for these recommended movies, leveraging publicly available sources. The model utilizes a dataset from Kaggle, which is limited to movies released up until the year 2015.
 
+# problem aimed to solve 
+
+1. **Information Overload:** With the vast amount of movie choices available, users often struggle to narrow down their options and find movies that match their preferences. This problem aims to simplify the selection process by providing personalized movie recommendations.
+
+2. **Discoverability:** Many great movies often go unnoticed because users are unaware of their existence. This project addresses discoverability issues by recommending movies that users might not have otherwise encountered.
+
+3. **Streamlining the Streaming Process:** Finding legitimate streaming links for movies can be time-consuming and frustrating. This objective seeks to simplify the process by providing direct streaming links to recommended movies, making it easier for users to access and enjoy their chosen films.
+
+
 
 # Tools & Technologies Used
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisMIVHbKjYAF3lQvTF9suc_QjNLS-SoQuykTbyjoZmyfoM2C9V5vsW12Dvt-hOsUT8GrfJ1aWuGPdbf9pOeZD204T_VUT3G1ckiy5OzxOaAVJngclB_H8IY6vzLiRti4qoFjIsZ8CImcLKrs4sM9BLY-t6ynUsyZ0Ly7ZXpT3j26hgWYocU0ioFbEY/s16000/Untitled%20design%20(6).png)
