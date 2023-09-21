@@ -108,6 +108,22 @@ We use the Pickle library to store our model. This allows us to save the trained
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMEfB2sFlTxZnZNUrx0g3qOGfz5lYLn1h25M47w_kYk6nASlOdtDE6Hfj-s_qPlfbDhadtWDg_lRz0KP9lCQk9_gJPUX8FA1c8VerMW7VspImRGBJ5fSkcZqSVOb5DjuqHI9Pz5s27hj_f6bbomp7De6lZQ7nHnKNkWQRmEfjsSO156jr_a5u4gCXn/s16000/11zon_cropped%20(7).png)
 Our Streamlit application is the user interface for interacting with our movie recommendation system. It provides a user-friendly experience for users to discover movies.
 
+# Code Structure
+- Importing Necessary Libraries: The code starts by importing required libraries such as Streamlit, Pandas, Pickle, and Requests for web scraping and web API interaction.
+
+- Fetching Movie Posters: There's a function fetch_poster(movie_id) that fetches movie posters from The Movie Database (TMDb) API. It requests movie data, extracts poster 
+  paths, and constructs full image URLs.
+
+- Movie Recommendation Function: The recommend(mov) function recommends movies based on user input. It calculates movie similarities using a pre-computed similarity matrix 
+  and returns a list of recommended movies along with their posters.
+
+- Loading Data and Model: The code loads movie data and a pre-trained similarity matrix from Pickle files. These data are essential for the recommendation process.
+
+- Streamlit Web Application: It creates a Streamlit web application with a title and a select box for users to choose a movie. Users can click the "Recommend" button to -  
+  get movie recommendations.
+
+- Displaying Recommendations: The recommended movies are displayed in columns, with each column containing a movie title, an image poster,and a button to go to the movie 
+page. The user can click on a button to access more information about the recommended movie.
 
 # Webpage
 1. using a virtual environment is must along with streamlit running as administrator.
